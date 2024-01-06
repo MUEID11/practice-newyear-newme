@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+header {
+  background-image: url("../images/banner/banner3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+.header-info{
+    max-width: 720px;
+    padding: 200px 230px 0px 0px;
+    text-align: right;
+    color: white;
+    transform: translate(160%, 10%);
+}
+.header-info h1,
+.header-info p,
+.header-info button {
+  margin-bottom:50px;
+}
+h1{
+    font-size: 65px;
+    font-weight: 600px;
+}
+p{
+    font-size: 20px;
+    font-weight:200;
+}
+.primary-btn{
+    background-color: white;
+    color: #005FAC;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.container{
+    padding-top: 100px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.container img{
+    max-width: 450px;
+}
+.failures-info{
+    max-width: 500px;
+    color: #383838;
+    padding: 50px;
+}
+.failures-info h3,p,ul{
+    margin-bottom: 30px;
+}
+
+.tick-list li{
+    list-style: none;
+    background-image: url('../images/check\ 1.svg');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    padding-left: 30px;
+    margin-bottom: 10px;
+
+}
