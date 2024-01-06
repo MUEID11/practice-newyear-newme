@@ -16,7 +16,7 @@ header {
     padding: 200px 230px 0px 0px;
     text-align: right;
     color: white;
-    transform: translate(160%, 10%);
+    transform: translate(160%, 0%);
 }
 .header-info h1,
 .header-info p,
